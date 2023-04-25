@@ -124,6 +124,7 @@ char z = str[i];
 write(1, &z, 1);
 count++;
 }
+}
 return (count);
 }
 /************************* PRINT A STRING IN ROT13 *************************/
@@ -137,6 +138,7 @@ return (count);
  * @size: Size specifier
  * Return: Numbers of chars printed
  */
+
 int print_rot13string(va_list types, char buffer[],
 int flags,int width, int precision, int size)
 {
